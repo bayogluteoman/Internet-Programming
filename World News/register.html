@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Register Page">
+<meta name="keywords" content="Register, News, Sport, Travel, Culture">
+<title>Register</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-image:url('img/bg.jpg')">
+<div class="header">
+<h1>WORLD NEWS</h1>
+ </div>
+
+<div class="navbar">
+<ul> 	
+	<li><a href="index.html">Home</a> |</li>
+	<li><a href="news.html">News</a> |</li>
+	<li><a href="sport.html">Sport</a> |</li>
+	<li><a href="travel.html">Travel</a> |</li>
+	<li><a href="culture.html">Culture</a> |</li>
+	<li class="dropdown">More
+	<div class="dropdown-item">
+		<a href="contactme.html">Contact me</a>
+		<a href="aboutme.html">About me</a>		
+    </div>|</li>	
+	<li><a href="signin.html">Sign in</a></li>
+<ul>    
+</div>
+
+<div class="registerForm">
+
+
+<form method="get">
+				<label class="element">
+						<span>Name</span>
+						<input type="text" id="name" name="" >
+				</label>
+				<label class="element">
+						<span>Surname</span>
+						<input type="text" id="surname" name="" >
+				</label>
+				
+				<label class="element">
+						<span>Password</span>
+						<input type="Password" name="" id="pass">
+				</label>
+				
+				<label class="element">
+						<span>E-mail</span>
+						<input type="email" name="" id="email" placeholder="mail@mail.com">
+				</label>		
+				<label class="element">
+						<span>Date of Birth</span>
+						<input type="date" id="date" name="" placeholder="gg/aa/yyyy">
+				</label>
+				
+				<label class="element">
+						<span>Department</span>
+						<select name="">
+							<option value="ceng">Computer Engineering</option>
+							<option value="eem">Electrical and Electronics Engineering</option>
+							<option value="ee">Environmental Engineering</option>
+							<option value="ie">Industrial Engineering</option>
+							<option value="ce">Civil Engineering</option>
+							<option value="che">Chemical Engineering</option>
+							<option value="me">Mechanical Engineering</option>
+							<option value="mse">Materials Science and Engineering</option>		
+						</select>
+				</label>
+				
+				<label class="element">
+						<span>Gender</span>
+						<select name="">
+						  <option value="male">Male</option>
+						  <option value="female">Female</option>		
+						</select>
+				</label>
+				<label class="element">
+						<span>About Me</span>
+						<textarea name="" rows="3" cols="40"> </textarea>
+				</label>
+				<label class="element">
+						<span>Upload Your Photo</span>
+						<input type="file">
+				</label>
+				<label class="element">
+						<span>Mark Your Interests</span>
+						<div class="subelement">
+								<input type="checkbox" name="" id = "auto">
+								<label for="auto">Corona</label>
+								<br>
+								<input type="checkbox" name="" id = "edu">
+								<label for="edu">Travel</label>
+								<br>
+								
+								<input type="checkbox" name="" id="sci">
+								<label for="sci">Poltics</label>
+								<br>
+
+								<input type="checkbox" name="" id="game">
+								<label for = "game">Gaming</label>
+								<br>
+
+								<input type="checkbox" name="" id="polt">
+								<label for="unknow">Science</label>
+								<br>								
+
+						</div>
+
+					<div class="subelement">
+						<input type="checkbox" name="" id="comedy">
+						<label for="comedy">Comedy</label>
+						<br/>
+						<input type="checkbox" name="" id="film">
+						<label for="film">Film </label>
+						<br/>
+
+						<input type="checkbox" name="" id="music">
+						<label for="music">Music</label>
+						<br/>
+
+						<input type="checkbox" name="" id="culture">
+						<label for="culture">Culture</label>
+						<br/>
+
+						<input type="checkbox" name="" id="sport">
+						<label for="sport">Sport</label>
+					</div>
+					
+				</label>
+				
+			<div style="text-align:center;">	
+			<br/>			
+			<input type="button" onclick="location.href='index.html'" value="Submit" name="">
+			<br/><br/>
+			<input type="reset" value="Reset" name="">
+			<br/><br/>
+			</div>
+			
+</form>
+	
+			<div style="text-align:center;margin:20px">	
+			
+				<a href="index.html"><img  src="img/home.png" width="50px" height="50px" alt=""/></a>			
+			
+			</div>
+</div>
+
+<footer>
+  <p>Copyright © 2021. All Rights Reserved.</p>  
+</footer>
+
+</body>
+</html>
