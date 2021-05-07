@@ -6,8 +6,9 @@
 <meta name="keywords" content="Sign, News, Sport, Travel, Culture">
 <title>Sign In</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="css/bootstrap.css">
 </head>
-<body style="background-image:url('img/signinbg.jpg')">
+<body style="background-image:url('img/signinbg.jpg'); background-repeat: no-repeat;">
 <div class="header">
 <h1>WORLD NEWS</h1>
  </div>
@@ -28,14 +29,19 @@
 <ul>    
 </div>
 
-<div class="search">
+<div class="container">
+<div class="row">
+<div class="pull-right">
 <form  method="get" action="http://www.google.com/search">
-	<input type="text" name="q" placeholder="Search...">
+	<input type="text" name="q" placeholder="Search..">
 	<input type="submit" value="Search">
 </form>
 </div>
+</div>
+</div>
 
-<div class="signForm">
+<div class="container">
+<div class="signForm ">
 	<h2>Welcome to WORLD NEWS</h2>
 		<form method="get">
 				<label class="element">
@@ -58,6 +64,7 @@
 			<span>Don't have an account?
 			<a href="register.html">Register now</a>
 			</span>	
+</div>
 </div>
 
 <footer>

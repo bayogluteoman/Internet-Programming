@@ -97,15 +97,33 @@ body{
 }
 
 .response {
-	display: block;
+	
 	margin-top: 150px;
 	margin-bottom: 100px;			
 } 
 
-.workHours td{
-	padding:3px;
-	border: 1px solid #000;
+.days {
+	list-style: none;
+    display: block;
+	margin:0px;
+	padding:0;
+	color:#000;
+	font-weight:bolder;
+	
+	
+}
+.days li {
+	display: inline-block;
+    position: relative;
+	margin:0;
+	padding:0;
 	background-color: #fff;
+}
+.days li h3 {
+	color:#000;
+	margin:2px;
+	padding: 5px;
+	border: 2px solid #000000;
 }
 
 input.read-more-state {
@@ -143,6 +161,9 @@ address a{
 	color:#000;
 }
 
+
+@media (min-width: 768px) {
+
 .registerForm {
 	display:block;
 	margin-right: auto;
@@ -150,6 +171,25 @@ address a{
 	width:700px;
 	margin-top: 100px;	
 }
+
+
+  
+}
+@media (max-width: 767px) {
+ 
+	.registerForm {
+	display:block;
+	padding-right: 15px;
+	padding-left: 15px;
+	width:100%;
+	margin-top: 100px;
+}
+
+  
+}
+
+
+
 
 .registerForm  .element,
 .signForm  .element,
@@ -177,7 +217,7 @@ address a{
 	background-color:#fff;
 	padding:20px;
 	margin-top: 50px;
-	margin-left: 50px;
+	margin-left: 10px;
 	text-align: center; 
 	border-radius: 12px;
 	margin-bottom:50px;		
@@ -189,12 +229,9 @@ address a{
 }
 
 .contents{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;	
 	margin-bottom:50px;
 	margin-top: 100px;
-	width:740px;
+	
 }
 
 .contents .img-hover:hover{
@@ -215,11 +252,9 @@ address a{
    transition: all 0.5s ease-in;
 }
 
-.contents .contact{
-	display: inline-block;
-	width: 710px;
+.contents .contact{	
 	padding: 20px;
-	margin-top: 0px;	
+	margin-top: 10px;	
 	margin-bottom: 30px;
 	text-align: center; 		
 	background-color: #e0e2e4;
